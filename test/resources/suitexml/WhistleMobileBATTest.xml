@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Kinship Whistle Mobile Suite Android" verbose="1"  parallel = "methods" thread-count = "1">
+
+<listeners>
+    <listener class-name="com.kinship.automation.utils.listeners.TestListener"/>
+</listeners>
+<test name="Kinship Whistle Mobile Android">
+    <classes>
+        <class name="com.kinship.automation.testcases.mobile.LandingPageVerificationTest" />
+        <class name="com.kinship.automation.testcases.mobile.GetStartedSetUpTest" />
+        <class name="com.kinship.automation.testcases.mobile.DeviceSetUpTest" />
+        <class name="com.kinship.automation.testcases.mobile.ResetPasswordTest" />
+        <class name="com.kinship.automation.testcases.mobile.LoginLogoutTest" />
+        <class name="com.kinship.automation.testcases.mobile.CustomerContractTest" />
+        <class name="com.kinship.automation.testcases.mobile.HealthChatTest" />
+        <class name="com.kinship.automation.testcases.mobile.VerifyTabTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetEditProfileTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetGenderTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetNeuteredSpayTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetBreedTest" />
+        <class name="com.kinship.automation.testcases.mobile.HumanStuffViewTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetWeightTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetTimezoneTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetAgeTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetFoodTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetFoodValidSelectionTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetProfileVerificationTest" />
+        <class name="com.kinship.automation.testcases.mobile.VerifyHomeTabTest" />
+        <class name="com.kinship.automation.testcases.mobile.VerifyShortHeaderTest" />
+        <class name="com.kinship.automation.testcases.mobile.HomePageTest" />
+        <class name="com.kinship.automation.testcases.mobile.PetLocationTest" />
+        <class name="com.kinship.automation.testcases.mobile.PasswordTest" />
+        <class name="com.kinship.automation.testcases.mobile.EmailTest" />
+        <class name="com.kinship.automation.testcases.mobile.SafePlacesTest" />
+        <class name="com.kinship.automation.testcases.mobile.VerifyPetPickerTest" />
+        <class name="com.kinship.automation.testcases.mobile.SignInTest" />
+        <class name="com.kinship.automation.testcases.mobile.VerifyHomeDashboardTest" />
+        <class name="com.kinship.automation.testcases.mobile.LickingTest" />
+        <class name="com.kinship.automation.testcases.mobile.DrinkingTest" />
+        <class name="com.kinship.automation.testcases.mobile.ScratchingModalTest" />
+        <class name="com.kinship.automation.testcases.mobile.SleepingTest" />
+        <class name="com.kinship.automation.testcases.mobile.ActivityTest" />
+    </classes>
+</test>
+</suite>
